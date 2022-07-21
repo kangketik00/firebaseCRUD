@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTourActivity"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:layout_marginHorizontal="20dp">
+    <EditText
+        android:id="@+id/ed_add_wisata_imgurl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Image URL"
+        android:importantForAutofill="no"
+        android:layout_marginBottom="15dp"/>
+    <EditText
+        android:id="@+id/ed_add_wisata_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:importantForAutofill="no"
+        android:layout_marginBottom="15dp"/>
+    <EditText
+        android:id="@+id/ed_add_wisata_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        android:importantForAutofill="no"
+        android:layout_marginBottom="15dp"/>
+    <EditText
+        android:id="@+id/ed_add_wisata_rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rating"
+        android:importantForAutofill="no"
+        android:layout_marginBottom="15dp"/>
+    <EditText
+        android:id="@+id/ed_add_wisata_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripttion"
+        android:importantForAutofill="no"
+        android:layout_marginBottom="15dp"/>
+    <Button
+        android:id="@+id/btn_add_tour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Tour"/>
+
+
+</LinearLayout>
